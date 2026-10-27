@@ -28,7 +28,7 @@ Check out the PR branch of renovatebot/renovate, then run:
 
 ```sh
 LOG_LEVEL=debug RENOVATE_BINARY_SOURCE=install RENOVATE_TOKEN=<token> \
-  pnpm start renovate-reproductions/47484-mise-shared-constraints --dry-run=full
+  pnpm start renovate-reproductions/47484-mise-shared-constraints
 ```
 
 In the debug log, look for the containerbase `install-tool rust <version>` lines, or the `toolConstraints` debug output of each cargo artifact update.
